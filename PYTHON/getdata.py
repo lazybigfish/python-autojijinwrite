@@ -59,14 +59,11 @@ s = str(datetime.datetime.now())+'\n'
 text.insert(END, "现在的时间是：%s 请点击开始运行自动计算！\n" % s )
 text.insert(END, "\n \n")
 
-fundCode = []
-
 nowdate = datetime.datetime.now().strftime('%y-%m-%d')
 
 def main():
     # fundCode = input("基金代码：")
     #基金代码全局设置
-    global fundCode
     global nowdate
     qishilieshu = 6
     #调用函数获取基金代码，初始行数，代码个数

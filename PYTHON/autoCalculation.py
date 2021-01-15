@@ -1,10 +1,11 @@
 import xlrd
 from xlutils.copy import copy
+import datetime
 
-
+nowdate = datetime.datetime.now().strftime('%y-%m-%d')
 
 #自动计算全部结果并写入Excel
-def autoCalculation(infolist,y,x,fundcode,qishilieshu,nowdate):
+def autoCalculation(infolist,y,x,fundcode,qishilieshu):
     # 准备读取列表存放读取数据
     dqccje = []
     dqcysy = []
@@ -22,6 +23,7 @@ def autoCalculation(infolist,y,x,fundcode,qishilieshu,nowdate):
     chushi = qishilieshu
     chushi2 = qishilieshu
     # 初始行数定位
+    global nowdate
     x = x - 1
 
 
@@ -155,3 +157,4 @@ def autoCalculation(infolist,y,x,fundcode,qishilieshu,nowdate):
     nwb.save('shouyi.xls')
     #text.insert(END, "数据插入成功！\n 请打开shouyi.xls文件查看更新后的结果。")
 
+    return gxjrsy,gxccje,gxcysy,gxcysyl,jrzcc,jrzsy,jrzsyl

@@ -1,6 +1,7 @@
 import xlrd
 
 fundCode = []
+
 #获取基金代码
 def getfundCode(qishilieshu):
     global fundCode
