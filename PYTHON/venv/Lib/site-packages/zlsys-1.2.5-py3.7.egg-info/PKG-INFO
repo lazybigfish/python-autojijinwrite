@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: zlsys
+Version: 1.2.5
+Summary: 兰孟飞深圳市筑龙科技的工作
+Home-page: https://github.com/lanmengfei/testdm
+Author: lanmengfei
+Author-email: 865377886@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
