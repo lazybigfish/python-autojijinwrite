@@ -5,7 +5,7 @@ from xlutils.copy import copy
 def insterData(infolist,x,y,qishiweizhi):
 
     wb = xlrd.open_workbook('shouyi.xls')
-
+    x = x - 1
     qishiweizhi = qishiweizhi +3
     nwb =copy(wb)
     print("复制表格")

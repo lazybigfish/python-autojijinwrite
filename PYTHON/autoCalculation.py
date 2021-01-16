@@ -24,7 +24,7 @@ def autoCalculation(infolist,y,x,fundcode,qishilieshu):
     chushi2 = qishilieshu
     # 初始行数定位
     global nowdate
-    x = x - 1
+    x = x - 2
 
 
     wb = xlrd.open_workbook('shouyi.xls')
@@ -94,12 +94,12 @@ def autoCalculation(infolist,y,x,fundcode,qishilieshu):
     wb1 = xlrd.open_workbook('shouyi.xls')
     nwb = copy(wb1)
     nwb_sheet = nwb.get_sheet(0)
-    nwb_sheet.write_merge(1, 3, 0, 0, '序号')
+    # nwb_sheet.write_merge(1, 2, 0, 0, '序号')
     x = x + 1
     #按序将更新的数据插入列表
     for i in range(y):
         #合并基金代码单元格
-        nwb_sheet.write_merge(2, 2, chushi2,(chushi2 + 5),fundcode[i])
+        nwb_sheet.write_merge(1, 1, (chushi2),(chushi2 + 5),fundcode[i])
         nwb_sheet.write(x, chushi2, gxccje[i])
         chushi2 = chushi2 + 1
         nwb_sheet.write(x, chushi2, gxcysy[i])
@@ -157,4 +157,4 @@ def autoCalculation(infolist,y,x,fundcode,qishilieshu):
     nwb.save('shouyi.xls')
     #text.insert(END, "数据插入成功！\n 请打开shouyi.xls文件查看更新后的结果。")
 
-    return gxjrsy,gxccje,gxcysy,gxcysyl,jrzcc,jrzsy,jrzsyl
+    return gxjrsy,gxccje,gxcysy,gxcysyl,jrzcc,jrzsy,jrcyzsy,jrcyzsyl

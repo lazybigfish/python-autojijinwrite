@@ -58,6 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -66,8 +67,8 @@
       <recent name="F:\pythonWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test-qt2">
-    <configuration name="getdata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_qt2">
+    <configuration name="getdata-old" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonWork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,7 +80,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PYTHON/getdata.py" />
+      <option name="SCRIPT_NAME" value="F:\pythonWork\PYTHON\getdata-old.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jijinzhuyemian" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PYTHON" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PYTHON/jijinzhuyemian.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test-qt2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_qt2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonWork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +143,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\pythonWork\PYTHON\test-qt2.py" />
+      <option name="SCRIPT_NAME" value="F:\pythonWork\PYTHON\test_qt2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,10 +152,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_qt2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PYTHON" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/PYTHON/test_qt2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test-qt2" />
-        <item itemvalue="Python.getdata" />
+        <item itemvalue="Python.test_qt2" />
+        <item itemvalue="Python 测试.pytest in test_qt2.py" />
+        <item itemvalue="Python.jijinzhuyemian" />
+        <item itemvalue="Python.getdata-old" />
         <item itemvalue="Python.test-qt" />
       </list>
     </recent_temporary>
@@ -174,6 +214,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="459" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610737137917">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="459" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1610737137917" />
     <state x="842" y="91" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1610686519306">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -186,41 +230,45 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="842" y="178" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610686560693" />
-    <state width="1259" height="81" key="GridCell.Tab.0.bottom" timestamp="1610703961839">
+    <state width="1259" height="346" key="GridCell.Tab.0.bottom" timestamp="1610755900486">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="81" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610703961839" />
-    <state width="1259" height="81" key="GridCell.Tab.0.center" timestamp="1610703961839">
+    <state width="1259" height="346" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610755900486" />
+    <state width="1259" height="346" key="GridCell.Tab.0.center" timestamp="1610755900486">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="81" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610703961839" />
-    <state width="1259" height="81" key="GridCell.Tab.0.left" timestamp="1610703961839">
+    <state width="1259" height="346" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610755900486" />
+    <state width="1259" height="346" key="GridCell.Tab.0.left" timestamp="1610755900486">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="81" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610703961839" />
-    <state width="1259" height="81" key="GridCell.Tab.0.right" timestamp="1610703961839">
+    <state width="1259" height="346" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610755900486" />
+    <state width="1259" height="346" key="GridCell.Tab.0.right" timestamp="1610755900486">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="81" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610703961839" />
-    <state width="1259" height="44" key="GridCell.Tab.1.bottom" timestamp="1610703677488">
+    <state width="1259" height="346" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610755900486" />
+    <state width="1259" height="44" key="GridCell.Tab.1.bottom" timestamp="1610705256615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="44" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610703677488" />
-    <state width="1259" height="44" key="GridCell.Tab.1.center" timestamp="1610703677488">
+    <state width="1259" height="44" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610705256615" />
+    <state width="1259" height="44" key="GridCell.Tab.1.center" timestamp="1610705256615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="44" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610703677488" />
-    <state width="1259" height="44" key="GridCell.Tab.1.left" timestamp="1610703677488">
+    <state width="1259" height="44" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610705256615" />
+    <state width="1259" height="44" key="GridCell.Tab.1.left" timestamp="1610705256614">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="44" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610703677488" />
-    <state width="1259" height="44" key="GridCell.Tab.1.right" timestamp="1610703677488">
+    <state width="1259" height="44" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610705256614" />
+    <state width="1259" height="44" key="GridCell.Tab.1.right" timestamp="1610705256615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="44" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610703677488" />
-    <state x="260" y="0" key="SettingsEditor" timestamp="1610686606254">
+    <state width="1259" height="44" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610705256615" />
+    <state x="260" y="0" key="SettingsEditor" timestamp="1610755811237">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="260" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1610686606254" />
+    <state x="260" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1610755811237" />
+    <state x="631" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1610753768489">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="631" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1610753768489" />
   </component>
 </project>
